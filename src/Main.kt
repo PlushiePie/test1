@@ -11,3 +11,5 @@ fun main() {
     println("Часы: $hour")
     println("Время суток: $timeOfDay")
 }
+
+//комментарий как второй коммит
