@@ -1,0 +1,13 @@
+fun main() {
+    val hour = 15
+    val timeOfDay = when (hour) {
+        in 0..5 -> "Ночь"
+        in 6..11 -> "Утро"
+        in 12..17 -> "День"
+        in 18..23 -> "Вечер"
+        else -> "Неверное значение часа"
+    }
+
+    println("Часы: $hour")
+    println("Время суток: $timeOfDay")
+}
